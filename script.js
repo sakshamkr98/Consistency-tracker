@@ -165,7 +165,7 @@ document.querySelectorAll(".nav button").forEach(btn => {
 });
 
 /* ---------- COUNTDOWN ---------- */
-const target = new Date("2026-06-30T23:59:59");
+const target = new Date("2026-06-01T23:59:59");
 
 setInterval(() => {
   const now = new Date();
@@ -187,3 +187,4 @@ renderTable();
 updateProgress();
 renderCalendar();
 scheduleMidnightReset();
+
